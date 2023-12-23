@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ffffff;
+    border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ebebeb;
+}
+
+body {
+    background: #000;
+}
+
+p {
+    color: #fff;
+}
+
+.btn-back a {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    background: #ce0000;
+    border-radius: 10px;
+}
+
+.btn-back a:hover {
+    background: #fff;
+    color: #ce0000;
+}
+
+
+.certificate-item img {
+    transition: transform 0.3s ease-in-out;
+}
+
+.certificate-item:hover img {
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width: 900px) {
+    .certificate-item:hover img {
+        transform: scale(1.05);
+    }
+}
