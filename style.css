@@ -83,12 +83,7 @@ nav {
     z-index: 100;
 }
 
-.nav-logo {
-    position: relative;
-}
-
 .nav-logo img {
-    position: absolute;
     margin-top: 20px;
     width: 65px;
 }
