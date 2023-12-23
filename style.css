@@ -83,9 +83,22 @@ nav {
     z-index: 100;
 }
 
-.nav-logo img {
-    margin-top: 20px;
-    width: 65px;
+.nav-logo {
+    position: relative;
+}
+
+.nav-name {
+    font-size: 30px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.nav-logo span {
+    position: absolute;
+    top: -15px;
+    right: -20px;
+    font-size: 5em;
+    color: #fcfcfc;
 }
 
 .nav-menu,
@@ -252,7 +265,7 @@ nav {
 
 @keyframes imgFloat {
     50% {
-        transform: translateY(15px);
+        transform: translateY(10px);
     }
 }
 
