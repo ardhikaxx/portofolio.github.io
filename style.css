@@ -87,18 +87,10 @@ nav {
     position: relative;
 }
 
-.nav-name {
-    font-size: 30px;
-    font-weight: 600;
-    color: #fff;
-}
-
-.nav-logo span {
+.nav-logo img {
     position: absolute;
-    top: -15px;
-    right: -20px;
-    font-size: 5em;
-    color: #fcfcfc;
+    margin-top: 20px;
+    width: 65px;
 }
 
 .nav-menu,
@@ -265,7 +257,7 @@ nav {
 
 @keyframes imgFloat {
     50% {
-        transform: translateY(10px);
+        transform: translateY(15px);
     }
 }
 
