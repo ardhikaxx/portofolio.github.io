@@ -51,7 +51,6 @@ p {
     color: #ce0000;
 }
 
-
 .certificate-item img {
     transition: transform 0.3s ease-in-out;
 }
@@ -63,5 +62,14 @@ p {
 @media only screen and (max-width: 900px) {
     .certificate-item:hover img {
         transform: scale(1.05);
+    }
+
+    .btn-back a .back-text {
+        display: none;
+    }
+
+    .certificate-item img {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
