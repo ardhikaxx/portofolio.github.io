@@ -1,4 +1,4 @@
-# Nama Portofolio Anda
+# Web Portofolio
 
 Selamat datang di repositori web portofolio saya! Portofolio ini dibuat untuk membagikan informasi tentang saya, proyek-proyek yang telah saya kerjakan, serta kemampuan dan sertifikat yang saya miliki.
 
@@ -32,6 +32,6 @@ Saya memiliki berbagai keterampilan di berbagai bidang. Pada halaman ini, Anda d
 
 ## Hubungi Saya
 
-Jika Anda memiliki pertanyaan lebih lanjut atau ingin berkolaborasi, jangan ragu untuk menghubungi saya melalui [email](mailto:email@domain.com) atau [LinkedIn](https://www.linkedin.com/in/nama-anda).
+Jika Anda memiliki pertanyaan lebih lanjut atau ingin berkolaborasi, jangan ragu untuk menghubungi saya melalui [email](mailto:ardhikayanuar58@gmail.com) atau [Instagram](https://www.instagram.com/ardxhk_/).
 
 Terima kasih telah mengunjungi portofolio saya!
