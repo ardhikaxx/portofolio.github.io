@@ -32,6 +32,6 @@ Saya memiliki berbagai keterampilan di berbagai bidang. Pada halaman ini, Anda d
 
 ## Hubungi Saya
 
-Jika Anda memiliki pertanyaan lebih lanjut atau ingin berkolaborasi, jangan ragu untuk menghubungi saya melalui [email](mailto:ardhikayanuar58@gmail.com) atau [Instagram](https://www.instagram.com/ardxhk_/){:target="_blank"}
+Jika Anda memiliki pertanyaan lebih lanjut atau ingin berkolaborasi, jangan ragu untuk menghubungi saya melalui [email](mailto:ardhikayanuar58@gmail.com) atau [Instagram](https://www.instagram.com/ardxhk_/).
 
 Terima kasih telah mengunjungi portofolio saya!
