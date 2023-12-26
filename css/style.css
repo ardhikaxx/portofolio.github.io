@@ -93,17 +93,15 @@ nav {
     color: #fff;
 }
 
-.nav-logo span {
-    position: absolute;
-    top: -15px;
-    right: -20px;
-    font-size: 5em;
-    color: #fcfcfc;
-}
-
 .nav-menu,
 .nav_menu_list {
     display: flex;
+}
+
+.nav-name img {
+    position: absolute;
+    top: 15px;
+    width: 55px;
 }
 
 .nav-menu .nav_list {
@@ -430,7 +428,7 @@ h3 {
 
 .skills-info>h3 {
     color: #fcfcfc;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 20px;
     text-align: center;
 }
