@@ -31,8 +31,20 @@ body {
     background: #000;
 }
 
-p {
-    color: #fff;
+.paragraf {
+    font-size: 20px;
+    color: #e2e2e2;
+}
+
+.typedText {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.typed-cursor {
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
 }
 
 .btn-back a {
@@ -71,5 +83,21 @@ p {
     .certificate-item img {
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .typedText {
+        font-size: 30px;
+    }
+    
+    .typed-cursor {
+        font-size: 30px;
+        color: white;
+    }
+
+    .paragraf {
+        padding-right: 10px;
+        padding-left: 10px;
+        font-size: 16px;
+        color: #e2e2e2;
     }
 }
