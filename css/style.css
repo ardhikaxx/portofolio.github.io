@@ -551,8 +551,8 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 180px;
-        height: 350px;
+        width: 170px;
+        height: 290px;
         border-radius: 0 0 0 15px;
         transition: 0.3s;
         text-align: center;
@@ -582,7 +582,7 @@ footer {
     }
 
     .nav_menu_list {
-        margin: 5px;
+        margin-top: -10px;
         flex-direction: column;
     }
 

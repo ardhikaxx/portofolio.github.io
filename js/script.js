@@ -22,8 +22,8 @@ function headerShadow() {
     } else {
 
         navHeader.style.boxShadow = "none";
-        navHeader.style.height = "90px";
-        navHeader.style.lineHeight = "90px";
+        navHeader.style.height = "70px";
+        navHeader.style.lineHeight = "70px";
 
     }
 }
