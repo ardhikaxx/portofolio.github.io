@@ -344,7 +344,7 @@ h3 {
 
 .about__subtitle {
     text-align: center;
-    margin-top: -25px;
+    margin-top: 20px;
     margin-bottom: 5px;
     color: #fff;
 }
@@ -359,7 +359,7 @@ h3 {
 }
 
 .about__img img {
-    margin-top: 55px;
+    margin-top: 100px;
     width: 250px;
     border-radius: 0.5rem;
 }
