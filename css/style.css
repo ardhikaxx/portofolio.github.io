@@ -60,7 +60,7 @@ i {
 }
 
 body {
-    background: #000;
+    background: #000000;
 }
 
 .container {
@@ -168,7 +168,7 @@ nav {
     align-content: center;
     min-height: 80vh;
     flex-direction: column;
-    width: 50%;
+    width: 55%;
     padding-left: -20px;
 }
 
@@ -183,9 +183,9 @@ nav {
 
 .featured-name {
     font-size: 40px;
-    font-weight: 600;
+    font-weight: 700;
     color: #fff;
-    margin-block: 20px;
+    margin-block: 10px;
 }
 
 .typedText {
@@ -220,18 +220,75 @@ nav {
     display: flex;
     margin-top: 5em;
     gap: 30px;
-    cursor: pointer;
 }
 
-.icon {
+.icon-instagram {
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 40px;
     height: 40px;
-    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    background: #f09433;
+    background: -moz-linear-gradient(45deg,
+            #f09433 0%,
+            #e6683c 25%,
+            #dc2743 50%,
+            #cc2366 75%,
+            #bc1888 100%);
+    background: -webkit-linear-gradient(45deg,
+            #f09433 0%,
+            #e6683c 25%,
+            #dc2743 50%,
+            #cc2366 75%,
+            #bc1888 100%);
+    background: linear-gradient(45deg,
+            #f09433 0%,
+            #e6683c 25%,
+            #dc2743 50%,
+            #cc2366 75%,
+            #bc1888 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f09433', endColorstr='#bc1888', GradientType=1);
+}
+
+.icon-linkedin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #0077b5;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.icon-twitter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #242424;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.icon-github {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
     color: #000;
-    border-radius: 50%;
+    border-radius: 10px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
@@ -656,7 +713,7 @@ footer {
         margin-bottom: 10px;
         color: #fff;
     }
-    
+
     .about__text {
         margin-left: -40px;
         margin-right: -40px;
@@ -670,7 +727,7 @@ footer {
         align-items: center;
         height: 100%;
     }
-    
+
     .about__img img {
         width: 250px;
         max-width: 100%;
