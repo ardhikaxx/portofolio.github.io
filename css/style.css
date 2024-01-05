@@ -406,9 +406,42 @@ h3 {
     color: #fff;
 }
 
+.about__more {
+    display: inline-block;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 50px;
+    padding: 10px 15px;
+    background-color: #ce0000;
+}
+
+.about__more:hover {
+    color: #ce0000;
+    background-color: #fff;
+}
+
+.about__more i {
+    margin-left: 5px;
+    animation: moveInOut 1s infinite alternate;
+}
+
+@keyframes moveInOut {
+    0% {
+        transform: translateX(-2px);
+    }
+    100% {
+        transform: translateX(3px);
+    }
+}
+
 .about__text {
     text-align: center;
     color: #fff;
+    margin-bottom: 25px;
 }
 
 .about__img {
