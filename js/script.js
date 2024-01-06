@@ -54,6 +54,7 @@ sr.reveal('.top-header', {});
 sr.reveal('.about__img',{delay: 400}); 
 sr.reveal('.about__subtitle',{delay: 400}); 
 sr.reveal('.about__text',{delay: 400});
+sr.reveal('.about__more',{delay: 400});
 
 const srLeft = ScrollReveal({
     origin: 'left',
