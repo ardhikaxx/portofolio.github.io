@@ -51,10 +51,10 @@ sr.reveal('.social_icons', { delay: 200 });
 sr.reveal('.featured-image', { delay: 300 });
 sr.reveal('.project-box', { interval: 200 });
 sr.reveal('.top-header', {});
-sr.reveal('.about__img',{delay: 400}); 
-sr.reveal('.about__subtitle',{delay: 400}); 
-sr.reveal('.about__text',{delay: 400});
-sr.reveal('.about__more',{delay: 400});
+sr.reveal('.about__img',{delay: 200}); 
+sr.reveal('.about__subtitle',{delay: 200}); 
+sr.reveal('.about__text',{delay: 200});
+sr.reveal('.about__more',{delay: 200});
 
 const srLeft = ScrollReveal({
     origin: 'left',
@@ -62,13 +62,11 @@ const srLeft = ScrollReveal({
     duration: 2000,
     reset: true
 })
-
-srLeft.reveal('.about-info', { delay: 100 })
 srLeft.reveal('.skills-info', { delay: 100 })
 
 const srRight = ScrollReveal({
     origin: 'right',
-    distance: '80px',
+    distance: '50px',
     duration: 2000,
     reset: true
 })
