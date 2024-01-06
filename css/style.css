@@ -36,7 +36,7 @@ html {
     color: #000000;
     border: none;
     outline: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 700;
     border-radius: 15px;
     cursor: pointer;
@@ -206,10 +206,11 @@ nav {
 }
 
 .featured-text-btn>.blue-btn {
+    padding-top: 13px;
     background: #ce0000;
     text-decoration: none;
     color: #fff;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 .featured-text-btn>.blue-btn:hover {
