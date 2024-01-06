@@ -38,15 +38,14 @@ html {
     outline: none;
     font-size: 16px;
     font-weight: 700;
-    border-radius: 15px;
+    border-radius: 10px;
     cursor: pointer;
     transition: 0.4s;
 }
 
 .btn>i {
     margin-left: 5px;
-    font-size: 20px;
-    margin-top: 50px;
+    font-size: 18px;
     align-items: center;
 }
 
@@ -177,9 +176,14 @@ nav {
     background: #ce0000;
     color: #fff;
     padding: 3px 8px;
-    font-size: 16px;
+    font-size: 18px;
     border-radius: 5px;
     font-weight: 800;
+}
+
+.featured-text-card i {
+    display: inline-block;
+    font-size: 16px;
 }
 
 .featured-name {
@@ -201,16 +205,21 @@ nav {
 }
 
 .featured-text-btn {
-    display: flex;
+    display: inline-block;
     gap: 20px;
 }
 
 .featured-text-btn>.blue-btn {
-    padding-top: 13px;
     background: #ce0000;
     text-decoration: none;
     color: #fff;
     font-size: 16px;
+    width: 100px;
+    margin-right: 10px;
+}
+
+.blue-btn i {
+    font-size: 15px;
 }
 
 .featured-text-btn>.blue-btn:hover {
@@ -376,7 +385,7 @@ h3 {
 
 .about__more {
     text-decoration: none;
-    border-radius: 15px;
+    border-radius: 10px;
     font-size: 16px;
     font-weight: 700;
     color: #fff;
@@ -391,6 +400,8 @@ h3 {
 }
 
 .about__more i {
+    display: inline-block;
+    font-size: 16px;
     margin-left: 5px;
     animation: moveInOut 1s infinite alternate;
 }
@@ -439,11 +450,10 @@ h3 {
     height: 250px;
     background: #000000;
     border: 2px solid #fff;
-    border-radius: 20px;
+    border-radius: 25px;
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     overflow: hidden;
     text-decoration: none;
-    margin-top: 20px;
 }
 
 .project {
