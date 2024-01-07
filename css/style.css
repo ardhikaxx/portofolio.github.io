@@ -31,7 +31,7 @@ html {
 
 .btn {
     text-decoration: none;
-    padding: 10px 15px;
+    padding: 10px 12px;
     background: #fff;
     color: #000000;
     border: none;
@@ -219,7 +219,20 @@ nav {
 }
 
 .blue-btn i {
-    font-size: 15px;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 5px;
+    animation: moveInOut 1s infinite alternate;
+}
+
+@keyframes moveInOut {
+    0% {
+        transform: translateX(-2px);
+    }
+
+    100% {
+        transform: translateX(3px);
+    }
 }
 
 .featured-text-btn>.blue-btn:hover {
@@ -381,39 +394,6 @@ h3 {
     margin-top: 10px;
     margin-bottom: 5px;
     color: #fff;
-}
-
-.about__more {
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 16px;
-    font-weight: 700;
-    color: #fff;
-    margin-top: 50px;
-    padding: 10px 15px;
-    background-color: #ce0000;
-}
-
-.about__more:hover {
-    color: #ce0000;
-    background-color: #fff;
-}
-
-.about__more i {
-    display: inline-block;
-    font-size: 16px;
-    margin-left: 5px;
-    animation: moveInOut 1s infinite alternate;
-}
-
-@keyframes moveInOut {
-    0% {
-        transform: translateX(-2px);
-    }
-
-    100% {
-        transform: translateX(3px);
-    }
 }
 
 .about__text {
