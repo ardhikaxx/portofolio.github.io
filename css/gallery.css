@@ -61,13 +61,23 @@ body {
     color: #ce0000;
 }
 
+.image-container img {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
 .image-item {
+    display: inline;
+    align-items: center;
     overflow: hidden;
 }
 
 .image-item img {
     width: 350px;
     height: 250px;
+    display: flex;
+    align-items: center;
     object-fit: cover;
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
@@ -85,6 +95,10 @@ body {
 
     .btn-back a .back-text {
         display: none;
+    }
+
+    .image-item {
+        overflow: hidden;
     }
 
     .image-item img {
