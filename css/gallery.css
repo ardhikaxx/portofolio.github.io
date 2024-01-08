@@ -80,19 +80,13 @@ body {
     align-items: center;
     object-fit: cover;
     border-radius: 10px;
-    transition: transform 0.3s ease-in-out;
 }
 
 .image-item:hover img {
     border-radius: 10px;
-    transform: scale(1.1);
 }
 
 @media only screen and (max-width: 900px) {
-    .image-item:hover img {
-        transform: scale(1.05);
-    }
-
     .btn-back a .back-text {
         display: none;
     }
