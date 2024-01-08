@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 html {
@@ -31,13 +31,13 @@ html {
 
 .btn {
     text-decoration: none;
-    padding: 10px 12px;
+    padding: 12px 16px;
     background: #fff;
-    color: #000000;
+    color: #ce0000;
     border: none;
     outline: none;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.4s;
@@ -51,7 +51,7 @@ html {
 
 .btn:hover {
     background: #ce0000;
-    color: #fff;
+    color:#fff;
 }
 
 i {
@@ -199,7 +199,8 @@ nav {
 }
 
 .featured-text-info {
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 700;
     margin-bottom: 30px;
     color: #e2e2e2;
 }
@@ -214,6 +215,7 @@ nav {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
+    width: 100px;
     margin-right: 10px;
 }
 
@@ -236,7 +238,7 @@ nav {
 
 .featured-text-btn>.blue-btn:hover {
     background: #fff;
-    color: #000;
+    color: #ce0000;
 }
 
 .social_icons {
