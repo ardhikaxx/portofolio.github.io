@@ -215,7 +215,6 @@ nav {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
-    width: 100px;
     margin-right: 10px;
 }
 
@@ -391,6 +390,32 @@ h3 {
     text-align: center;
     color: #fff;
     margin-bottom: 20px;
+}
+
+.about__more {
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #ce0000;
+}
+
+.about__more i {
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 5px;
+    animation: moveInOut 1s infinite alternate;
+}
+
+@keyframes moveInOut {
+    0% {
+        transform: translateX(-2px);
+    }
+    100% {
+        transform: translateX(3px);
+    }
 }
 
 .about__img {
@@ -667,7 +692,7 @@ footer {
         background: #ce0000;
         text-decoration: none;
         color: #fff;
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .image,
@@ -730,11 +755,10 @@ footer {
         font-size: 16px;
         font-weight: 700;
         color: #fff;
-        padding: 10px 15px;
+        padding: 15px 20px;
         background-color: #ce0000;
         display: block;
         margin: 0 auto;
-        width: 175px;
         margin-top: 20px;
     }
 

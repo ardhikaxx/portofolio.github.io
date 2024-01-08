@@ -62,7 +62,7 @@ const srTop = ScrollReveal({
 srTop.reveal('.about__img',{delay: 200}); 
 srTop.reveal('.about__subtitle',{delay: 200}); 
 srTop.reveal('.about__text',{delay: 200});
-srTop.reveal('.about__more',{delay: 400});
+srTop.reveal('.about__more',{delay: 200});
 
 const srLeft = ScrollReveal({
     origin: 'left',

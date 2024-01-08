@@ -51,7 +51,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     color: #fff;
-    padding: 10px 20px;
+    padding: 15px 20px;
     cursor: pointer;
     text-decoration: none;
     background: #ce0000;
@@ -72,17 +72,23 @@ body {
 }
 
 @media only screen and (max-width: 900px) {
+    .certificate-item img {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
     .certificate-item:hover img {
         transform: scale(1.05);
     }
 
-    .btn-back a .back-text {
-        display: none;
+    .btn-back {
+        position: relative;
+        top: 3%;
+        left: 2%;
     }
 
-    .certificate-item img {
-        padding-left: 10px;
-        padding-right: 10px;
+    .btn-back a .back-text {
+        display: none;
     }
 
     .typedText {

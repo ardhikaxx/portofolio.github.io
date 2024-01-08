@@ -91,6 +91,12 @@ body {
         display: none;
     }
 
+    .btn-back {
+        position: relative;
+        top: 5%;
+        left: 5%;
+    }
+
     .image-item {
         overflow: hidden;
     }
