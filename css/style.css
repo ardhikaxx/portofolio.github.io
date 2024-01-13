@@ -480,21 +480,27 @@ h3 {
 }
 
 .icon-app svg {
-    margin: 1px;
+    margin: 3px;
     width: 35px;
+}
+
+#react,
+#mysql {
+    width: 45px;
 }
 
 #html,
 #css,
-#javascript {
-    width: 30px;
+#javascript,
+#typescript {
+    width: 35px;
 }
 #php {
     width: 45px;
 }
 
 #figma {
-    width: 30px;
+    width: 35px;
 }
 
 .btn-project {
