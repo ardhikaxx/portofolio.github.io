@@ -14,7 +14,8 @@ buttons.forEach(button => {
             html: `<div class="icon-app">${iconSVG}</div>
                     <p class="paragraf-info">${paragraph}</p>`,
             confirmButtonColor: '#ce0000',
-            confirmButtonText: 'Tutup'
+            confirmButtonText: 'Tutup',
+            scrollbarPadding: false
         });
     });
 });
