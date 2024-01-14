@@ -74,7 +74,7 @@ srLeft.reveal('.skills-info', { delay: 100 })
 
 const srRight = ScrollReveal({
     origin: 'right',
-    distance: '50px',
+    distance: '80px',
     duration: 2000,
     reset: true
 })
