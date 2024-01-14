@@ -43,19 +43,19 @@ body {
 }
 
 #flip div div {
-    background: #fff;
-    color: #2E7D32;
+    background: #f1c40f;
+    color: #fff;
 }
 
 #flip div:first-child div {
-    width: 200px;
-    background: #fff;
-    color: #2962FF;
+    width: 160px;
+    background: #3498db;
+    color: #fff;
 }
 
 #flip div:last-child div {
-    background: #fff;
-    color: #D50000;
+    background: #009700;
+    color: #fff;
 }
 
 @keyframes show {
@@ -118,23 +118,23 @@ body {
 .btn-back {
     position: absolute;
     top: 10%;
-    left: 5%;
+    left: 6%;
 }
 
 .btn-back a {
-    text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    font-size: 18px;
     font-weight: 700;
-    color: #ce0000;
-    background-color: #fff;
+    font-size: 16px;
+    color: #fff;
     padding: 15px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    background: #ce0000;
     border-radius: 10px;
 }
 
 .btn-back a:hover {
-    color: #fff;
-    background-color: #ce0000;
+    background: #fff;
+    color: #ce0000;
 }
 
 .btn a {
