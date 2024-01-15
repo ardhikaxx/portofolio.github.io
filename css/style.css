@@ -461,6 +461,10 @@ h3 {
     text-align: center;
 }
 
+.paragraf-info {
+    margin-bottom: 10px;
+}
+
 .paragraf-info p {
     font-weight: 500;
     color: #fff;
@@ -517,6 +521,22 @@ h3 {
 .btn-project:hover {
     background-color: #fff;
     color: #ce0000;
+}
+
+.alert-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.year-info {
+    margin: 0 auto;
+    padding: 5px;
+    width: 100px;
+    background-color: #ce0000;
+    color: #fff;
+    border-radius: 50px;
 }
 
 .project img {
