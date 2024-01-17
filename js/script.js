@@ -79,7 +79,6 @@ const srRight = ScrollReveal({
     reset: true
 })
 
-srRight.reveal('.skills-box', { delay: 100 })
 srRight.reveal('.git-pack', { delay: 100 })
 
 const sections = document.querySelectorAll('section[id]')
