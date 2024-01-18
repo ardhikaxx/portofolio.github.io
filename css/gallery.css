@@ -65,12 +65,13 @@ button {
     background-color: transparent;
     border: 0;
     outline: 0;
+    border-radius: 20px;
 }
 
-.image-container img {
+.image-container .image-item {
     display: flex;
     align-items: center;
-    margin: 0 auto;
+    justify-content: center;
 }
 
 .image-item {
@@ -109,8 +110,6 @@ button {
 
     .image-item img {
         border-radius: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
     }
 
     .typedText {
@@ -123,8 +122,8 @@ button {
     }
 
     .paragraf {
-        padding-right: 10px;
-        padding-left: 10px;
+        padding-right: 15px;
+        padding-left: 15px;
         font-size: 16px;
     }
 }
