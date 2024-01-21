@@ -9,6 +9,7 @@ Selamat datang di repositori web portofolio saya! Portofolio ini dibuat untuk me
 - [Projek Saya](#projek-saya)
 - [Sertifikat](#sertifikat)
 - [Skill](#skill)
+- [Activity](#Activity)
 
 ## Dashboard/Home
 
@@ -33,5 +34,9 @@ Saya memiliki berbagai keterampilan di berbagai bidang. Pada halaman ini, Anda d
 ## Hubungi Saya
 
 Jika Anda memiliki pertanyaan lebih lanjut atau ingin berkolaborasi, jangan ragu untuk menghubungi saya melalui [email](mailto:ardhikayanuar58@gmail.com) atau [Instagram](https://www.instagram.com/ardxhk_/).
+
+## Activity
+
+![Alt](https://repobeats.axiom.co/api/embed/4943282c6618b74bbac3c54c2f01df086171ff78.svg "Repobeats analytics image")
 
 Terima kasih telah mengunjungi portofolio saya!
