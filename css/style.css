@@ -348,14 +348,8 @@ nav {
 }
 
 .top-header span {
-    color: #999;
-}
-
-h3 {
-    font-size: 25px;
-    font-weight: 600;
-    color: #000;
-    margin-bottom: 15px;
+    font-size: 20px;
+    color: #f0f0f0;
 }
 
 .about-section {
@@ -543,11 +537,6 @@ h3 {
     width: 200px;
     height: auto;
     border-radius: 15px;
-}
-
-.top-header span {
-    text-align: center;
-    color: #fff;
 }
 
 .row {
@@ -875,6 +864,11 @@ footer {
     .skill img {
         margin: 0 auto;
         width: 30px;
+    }
+
+    .top-header span {
+        font-size: 16px;
+        color: #f0f0f0;
     }
 
     .project-container {
