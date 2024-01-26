@@ -1,6 +1,7 @@
 # Web Portofolio
 
-![John Doe](images/john-doe-profile.jpg)
+![Nama Anda](![image](https://github.com/ardhikaxx/myportofolio.github.io/assets/124660694/d0c80e72-6635-4d08-81ca-45534c2bac31)
+)
 
 Selamat datang di repositori web portofolio saya! Portofolio ini dibuat untuk membagikan informasi tentang saya, proyek-proyek yang telah saya kerjakan, serta kemampuan dan sertifikat yang saya miliki.
 
