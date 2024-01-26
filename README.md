@@ -1,5 +1,7 @@
 # Web Portofolio
 
+![John Doe](images/john-doe-profile.jpg)
+
 Selamat datang di repositori web portofolio saya! Portofolio ini dibuat untuk membagikan informasi tentang saya, proyek-proyek yang telah saya kerjakan, serta kemampuan dan sertifikat yang saya miliki.
 
 ## Navigasi
