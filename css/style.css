@@ -155,17 +155,16 @@ nav {
     display: flex;
     justify-content: center;
     align-content: center;
-    min-height: 80vh;
+    min-height: 90vh;
     flex-direction: column;
-    width: 55%;
-    padding-left: -20px;
+    width: 60%;
 }
 
 .featured-text-card span {
     background: #ce0000;
     color: #f4f4f4;
     padding: 3px 8px;
-    font-size: 18px;
+    font-size: 20px;
     border-radius: 5px;
     font-weight: 800;
 }
@@ -179,7 +178,8 @@ nav {
     font-size: 40px;
     font-weight: 800;
     color: #fff;
-    margin-block: 10px;
+    margin-top: 5px;
+    margin-block: 5px;
 }
 
 .typedText {
@@ -191,7 +191,7 @@ nav {
 .featured-text-info {
     font-size: 16px;
     font-weight: 600;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #e2e2e2;
 }
 
@@ -231,7 +231,7 @@ nav {
 
 .social_icons {
     display: flex;
-    margin-top: 5em;
+    margin-top: 1.5em;
     gap: 30px;
 }
 
@@ -561,12 +561,43 @@ nav {
 .skills-info>h3 {
     color: #fcfcfc;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
 .skill {
-    margin-left: 23px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.skill1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.level p {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #ce0000;
+    color: #fcfcfc;
+    margin-top: 5px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.level1 p {
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: #ce0000;
+    color: #fcfcfc;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    text-align: center;
 }
 
 .github-control {
@@ -576,16 +607,26 @@ nav {
     width: 100%;
 }
 
-.git-pack {
+.pack {
+    position: relative;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
     width: 100%;
-    color: #fff;
+    height: auto;
+    background: #1c1917;
+    border-radius: 10px;
+    box-shadow: 1px 8px 10px 2px rgba(17, 12, 46, 0.15);
+    overflow: hidden;
 }
 
-.git-pack img {
-    width: 100%;
+.pack>h3 {
+    text-align: center;
+    color: #fcfcfc;
+    font-size: 20px;
+    margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -854,16 +895,6 @@ footer {
 
     .skills-info>h3 {
         font-size: 18px;
-    }
-
-    .skill {
-        margin-left: -5px;
-        margin-right: -13px;
-    }
-
-    .skill img {
-        margin: 0 auto;
-        width: 30px;
     }
 
     .top-header span {

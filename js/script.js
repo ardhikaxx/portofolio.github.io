@@ -79,7 +79,7 @@ const srRight = ScrollReveal({
     reset: true
 })
 
-srRight.reveal('.git-pack', { delay: 100 })
+srRight.reveal('.pack', { delay: 100 })
 
 const sections = document.querySelectorAll('section[id]')
 
