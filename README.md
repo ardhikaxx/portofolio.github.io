@@ -1,7 +1,5 @@
 # Web Portofolio
 
-![gambar](https://blush.design/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fstep-3.86630bf2.png&w=640&q=75)
-
 Selamat datang di repositori web portofolio saya! Portofolio ini dibuat untuk membagikan informasi tentang saya, proyek-proyek yang telah saya kerjakan, serta kemampuan dan sertifikat yang saya miliki.
 
 ## Navigasi
