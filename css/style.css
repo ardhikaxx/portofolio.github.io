@@ -789,7 +789,7 @@ footer {
     }
 
     .featured-name {
-        font-size: 35px;
+        font-size: 45px;
         font-weight: 800;
         color: #fff;
         margin-block: 10px;
@@ -823,8 +823,8 @@ footer {
     .image,
     .image img {
         margin-bottom: 15px;
-        width: 180px;
-        height: 180px;
+        width: 280px;
+        height: 280px;
     }
 
     .row {
