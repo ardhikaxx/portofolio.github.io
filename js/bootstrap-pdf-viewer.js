@@ -1,9 +1,7 @@
 ; 'use strict';
 
-// Polyfill for window.requestAnimationFrame and window.cancelAnimationFrame.
 (function () { var a = 0; var b = ['webkit', 'moz', 'ms', 'o']; for (var c = 0; c < b.length && !window.requestAnimationFrame; c++) { window.requestAnimationFrame = window[b[c] + 'RequestAnimationFrame']; window.cancelAnimationFrame = window[b[c] + 'CancelAnimationFrame'] || window[b[c] + 'RequestCancelAnimationFrame']; } if (!window.requestAnimationFrame) { window.requestAnimationFrame = function (b, c) { var d = Date['now'] ? Date.now() : +(new Date()); var e = Math.max(0, 16 - (d - a)); var f = window.setTimeout(function () { b(d + e); }, e); a = d + e; return f; }; } if (!window.cancelAnimationFrame) { window.cancelAnimationFrame = function (a) { window.clearTimeout(a); }; } })();
 
-// Uncomment to DISABLE WebWorkers support
 PDFJS.disableWorker = true;
 
 var PDFViewer = function PDFViewer(element) {
