@@ -13,31 +13,18 @@ body {
     background-color: #000;
 }
 
-.more_container {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+.container {
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 20px;
 }
 
-.more-btn {
-    display: flex;
-    gap: 20px;
+.pdf-container {
+    width: 100%;
 }
 
-.btn-view {
+.btn-download {
     text-align: center;
-}
-
-.btn-back {
-    position: absolute;
-    top: 10%;
-    left: 6%;
 }
 
 .btn-back a {
@@ -56,19 +43,15 @@ body {
     color: #ce0000;
 }
 
-.btn button {
+#downloadLink {
     border: 0;
     outline: 0;
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 15px 38px;
     border-radius: 16px;
     font-family: "Poppins", sans-serif;
-    color: #ffffff;
-    background-color: #ce0000;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 700;
     letter-spacing: 1px;
     text-decoration: none;
@@ -87,22 +70,6 @@ body {
 @media only screen and (max-width: 900px) {
     body {
         overflow: hidden;
-    }
-
-    #container {
-        color:#ffffff;
-        text-transform: uppercase;
-        font-size:36px;
-        font-weight:bold;
-        width:100%;
-        bottom:45%;
-        display: block;
-    }
-
-    .btn-back {
-        position: absolute;
-        top: 5%;
-        left: 5%;
     }
 
     .btn-back a .back-text {
@@ -126,28 +93,9 @@ body {
         color: #ffffff;
         width: 150px;
         font-weight: 700;
-        font-size: 20px;
     }
 
-    .more_container {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .more-btn {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .btn-view {
+    #downloadLink {
         align-items: center;
         text-align: center;
     }
