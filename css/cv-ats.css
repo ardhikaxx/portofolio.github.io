@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body {
+    margin: 0px;
+    font-family: "Roboto";
+    text-align: center;
+    background-color: #000;
+}
+
+.more_container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.more-btn {
+    display: flex;
+    gap: 20px;
+}
+
+.btn-view {
+    text-align: center;
+}
+
+.btn-back {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+
+.btn-back a {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    padding: 15px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    background: #ce0000;
+    border-radius: 10px;
+}
+
+.btn-back a:hover {
+    background: #fff;
+    color: #ce0000;
+}
+
+.btn button {
+    border: 0;
+    outline: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 38px;
+    border-radius: 16px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    background-color: #ce0000;
+    font-size: 17px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #fff;
+    color: #ce0000;
+}
+
+.btn i {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 900px) {
+    body {
+        overflow: hidden;
+    }
+
+    #container {
+        color:#ffffff;
+        text-transform: uppercase;
+        font-size:36px;
+        font-weight:bold;
+        width:100%;
+        bottom:45%;
+        display: block;
+    }
+
+    .btn-back {
+        position: absolute;
+        top: 5%;
+        left: 5%;
+    }
+
+    .btn-back a .back-text {
+        display: none;
+    }
+
+    .btn-back a {
+        text-decoration: none;
+        font-family: "Poppins", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: #ce0000;
+        background-color: #fff;
+        padding: 15px 20px;
+        border-radius: 15px;
+    }
+
+    .btn button {
+        padding: 15px 20px;
+        border-radius: 16px;
+        color: #ffffff;
+        width: 150px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+
+    .more_container {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .more-btn {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .btn-view {
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .btn button {
+        padding: 20px 38px;
+        border-radius: 16px;
+        color: #ffffff;
+        width: 180px;
+        font-size: 24px;
+    }
+}
