@@ -52,7 +52,7 @@ html.pdf-viewer-full-screen > body {
 }
 
 .pdf-viewer {
-  background: #909090;
+  background: transparent;
   border: 1px solid #ddd;
   margin: 10px;
   height: 400px;
