@@ -25,7 +25,7 @@ var PDFViewer = function PDFViewer(element) {
   var $navbarRight = this.$navbarRight = $('<ul class="nav navbar-nav pull-right"/>').appendTo($navbar);
 
   $('<li><a href="./more.html"><i class="fas fa-arrow-left"></i> Back</a></li>' +
-    '<li><a href="#downloadLink" id="downloadLink"><i class="fas fa-download"></i></a></li>' +
+    '<li><a href="#downloadLink" id="downloadLink" onclick="downloadPDF()"><i class="fas fa-download"></i></a></li>' +
     '<li class="dropdown">' +
     '<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="icon-zoom-in"/> <b class="caret"/></a>' +
     '<ul class="dropdown-menu">' +
@@ -43,23 +43,6 @@ var PDFViewer = function PDFViewer(element) {
     '</ul>' +
     '</li>'
   ).appendTo($navbarRight);
-
-  var downloadLink = document.getElementById('downloadLink');
-var pdfURL = './assets/pdf/CV ATS.pdf';
-
-downloadLink.addEventListener('click', function (event) {
-    event.preventDefault();
-
-    var a = document.createElement('a');
-    a.href = pdfURL;
-    a.download = 'CV_ATS.pdf';
-    a.target = '_blank';
-
-    document.body.appendChild(a);
-    a.click();
-
-    document.body.removeChild(a);
-});
 
   if (!PDFViewer.IS_TOUCH_SUPPORTED) $('<li><a href="#full-screen" rel="tooltip" title="Full Screen"><i class="icon-fullscreen"/></a></li>').appendTo($navbarRight);
 
