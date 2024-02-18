@@ -45,17 +45,21 @@ var PDFViewer = function PDFViewer(element) {
   ).appendTo($navbarRight);
 
   var downloadLink = document.getElementById('downloadLink');
-  var pdfURL = './assets/pdf/CV ATS.pdf';
+var pdfURL = './assets/pdf/CV ATS.pdf';
 
-  downloadLink.addEventListener('click', function () {
+downloadLink.addEventListener('click', function (event) {
+    event.preventDefault();
+
     var a = document.createElement('a');
     a.href = pdfURL;
     a.download = 'CV_ATS.pdf';
+    a.target = '_blank';
 
+    document.body.appendChild(a);
     a.click();
 
     document.body.removeChild(a);
-  });
+});
 
   if (!PDFViewer.IS_TOUCH_SUPPORTED) $('<li><a href="#full-screen" rel="tooltip" title="Full Screen"><i class="icon-fullscreen"/></a></li>').appendTo($navbarRight);
 
