@@ -4,47 +4,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/png" href="./assets/Logo.png">
-    <title>Portfolio | ARDHKX</title>
-    <link rel="stylesheet" href="./css/more.css">
+    <title>CV ATS | ARDHKX</title>
+    <meta name="description" content="">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="320">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
     <link rel="stylesheet" href="./css/background.css">
+    <link rel="stylesheet" href="./lib/twitter-bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./lib/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="./css/bootstrap-pdf-viewer.css">
+    <link rel="stylesheet" href="./css/cv-ats.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 
 <body>
     <div class="container">
-        <div class="btn-back">
-            <a href="./index.html"><i class="fas fa-arrow-left"></i> <span class="back-text"> Back</span></a>
-        </div>
-        <div class="more_container">
-            <div class="more-header">
-                <div id=container>
-                    make
-                    <div id=flip>
-                        <div>
-                            <div>work</div>
-                        </div>
-                        <div>
-                            <div>learning</div>
-                        </div>
-                        <div>
-                            <div>the task</div>
-                        </div>
-                    </div>
-                    better!
-                </div>
-            </div>
-            <div class="more-btn">
-                <div class="btn btn-gallery">
-                    <a href="./gallery.html">Gallery <i class="fas fa-images"></i></a>
-                </div>
-                <div class="btn btn-cvAts">
-                    <a href="./cv-ats.html">CV ATS <i class="fas fa-file-alt"></i></a>
-                </div>
-                <div class="btn btn-cvKreatif">
-                    <a href="./cv-kreatif.html">CV Kreatif <i class="fas fa-magic"></i></a>
-                </div>
-            </div>
+        <div class="pdf-container">
+            <div id="viewer" class="pdf-viewer" data-url="./assets/pdf/CV Kreatif.pdf"></div>
         </div>
     </div>
 
@@ -107,8 +87,48 @@
         </div>
     </div>
 
-    <script src="./js/more.js"></script>
-    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="./lib/jquery-1.9.1.js"></script>
+    <script src="./lib/twitter-bootstrap/js/bootstrap.js"></script>
+    <script src="./lib/pdf.js"></script>
+    <script src="./js/cv-kreatif.js"></script>
+
+    <script>
+        var viewer;
+
+        $(function () {
+            viewer = new PDFViewer($('#viewer'));
+        });
+    </script>
+
+    <script>
+        function downloadPDF() {
+            var pdfURL = './assets/pdf/CV Kreatif.pdf';
+
+            var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+
+            if (isMobile) {
+                document.getElementById('downloadLink').addEventListener('touchstart', function (event) {
+                    event.preventDefault();
+                    download(pdfURL);
+                });
+            } else {
+                document.getElementById('downloadLink').addEventListener('click', function (event) {
+                    event.preventDefault();
+                    download(pdfURL);
+                });
+            }
+
+            function download(url) {
+                var a = document.createElement('a');
+                a.href = url;
+                a.download = 'CV_Kreatif.pdf';
+
+                a.click();
+
+                document.body.removeChild(a);
+            }
+        }
+    </script>
 </body>
 
 </html>

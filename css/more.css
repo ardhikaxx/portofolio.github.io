@@ -91,6 +91,7 @@ body {
 }
 
 .more_container {
+    font-family: "Poppins", sans-serif;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -114,6 +115,7 @@ body {
 }
 
 .btn-back {
+    font-family: "Poppins", sans-serif;
     position: absolute;
     top: 10%;
     left: 6%;
