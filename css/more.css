@@ -1,12 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     user-select: none;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
     margin: 0px;
-    font-family: "Poppins";
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     background-color: #000;
 }
@@ -128,13 +131,16 @@ body {
     padding: 15px 20px;
     cursor: pointer;
     text-decoration: none;
-    background: #ce0000;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
     border-radius: 10px;
 }
 
 .btn-back a:hover {
-    background: #fff;
-    color: #ce0000;
+    background: #ce0000;
+    color: #fff;
 }
 
 .btn a {
@@ -146,7 +152,10 @@ body {
     border-radius: 16px;
     font-family: "Poppins", sans-serif;
     color: #ffffff;
-    background-color: #ce0000;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
     font-size: 17px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -154,8 +163,8 @@ body {
 }
 
 .btn a:hover {
-    background-color: #fff;
-    color: #ce0000;
+    background-color: #ce0000;
+    color: #fff;
 }
 
 .btn i {
