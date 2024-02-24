@@ -535,8 +535,8 @@ nav {
 }
 
 .btn-project:hover {
-    background-color: #fff;
-    color: #ce0000;
+    background-color: #ce0000;
+    color: #fff;
 }
 
 .alert-info {
