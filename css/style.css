@@ -246,6 +246,19 @@ nav {
     gap: 30px;
 }
 
+.icon-whatsapp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    color: #2AB13F;
+    background-color: #fff;
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
 .icon-instagram {
     background-color: #fff;
     display: flex;
@@ -275,7 +288,7 @@ nav {
     border-radius: 3px;
 }
 
-.icon-twitter {
+.icon-github {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -283,19 +296,6 @@ nav {
     height: 40px;
     background-color: #fff;
     color: #242424;
-    border-radius: 10px;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
-    cursor: pointer;
-}
-
-.icon-github {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    background-color: #fafafa;
-    color: #000;
     border-radius: 10px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
