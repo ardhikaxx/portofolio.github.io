@@ -354,12 +354,37 @@ nav {
 .top-header h1 {
     font-weight: 600;
     color: #fff;
-    margin-bottom: 10px;
     font-size: 35px;
 }
 
 .top-header span {
     font-size: 20px;
+    color: #f0f0f0;
+}
+
+.top-content {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.top-content i {
+    margin-left: 10px;
+    color: #f0f0f0;
+}
+
+.top-web-content {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.top-web-content h2 {
+    margin-top: -50px;
+    color: #f0f0f0;
+}
+
+.top-content h2 {
+    margin-top: 35px;
     color: #f0f0f0;
 }
 
@@ -431,7 +456,6 @@ nav {
 .project-container {
     display: flex;
     width: 100%;
-    justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
 }

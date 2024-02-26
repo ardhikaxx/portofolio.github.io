@@ -51,6 +51,7 @@ sr.reveal('.social_icons', { delay: 200 });
 sr.reveal('.featured-image', { delay: 300 });
 sr.reveal('.project-box', { interval: 200 });
 sr.reveal('.top-header', {});
+sr.reveal('.top-content', { delay: 200 });
 
 const srTop = ScrollReveal({
     origin: 'top',
