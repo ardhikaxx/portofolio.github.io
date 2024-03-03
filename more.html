@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/more.css">
     <link rel="stylesheet" href="./css/background.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11" />
 </head>
 
 <body>
@@ -22,10 +23,14 @@
                     make
                     <div id=flip>
                         <div>
-                            <div class="work"><p>work</p></div>
+                            <div class="work">
+                                <p>work</p>
+                            </div>
                         </div>
                         <div>
-                            <div class="learning"><p>learning</p></div>
+                            <div class="learning">
+                                <p>learning</p>
+                            </div>
                         </div>
                         <div>
                             <div class="">the task</div>
@@ -39,10 +44,10 @@
                     <a href="./gallery.html">Gallery <i class="fas fa-images"></i></a>
                 </div>
                 <div class="btn btn-cvAts">
-                    <a href="./cv-ats.html">CV ATS <i class="fas fa-file-alt"></i></a>
+                    <a href="#" onclick="downloadPDF('CV ATS')">CV ATS <i class="fas fa-file-alt"></i></a>
                 </div>
                 <div class="btn btn-cvKreatif">
-                    <a href="./cv-kreatif.html">CV Kreatif <i class="fas fa-magic"></i></a>
+                    <a href="#" onclick="downloadPDF('CV Kreatif')">CV Kreatif <i class="fas fa-magic"></i></a>
                 </div>
             </div>
         </div>
@@ -109,6 +114,29 @@
 
     <script src="./js/more.js"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        function downloadPDF(fileName) {
+            Swal.fire({
+                title: 'Konfirmasi',
+                text: 'Apakah Anda ingin mendownload file ' + fileName + '.pdf?',
+                icon: 'question',
+                iconColor: '#ce0000',
+                showCancelButton: true,
+                confirmButtonColor: '#ce0000',
+                confirmButtonText: 'Ya, download!',
+                cancelButtonText: 'Tidak',
+            }).then((result) => {
+                if (result.isConfirmed) {
+                    const downloadLink = document.createElement('a');
+                    downloadLink.href = 'assets/PDF/' + fileName + '.pdf';
+                    downloadLink.download = fileName + '.pdf';
+                    downloadLink.click();
+                    document.body.removeChild(downloadLink);
+                }
+            });
+        }
+    </script>
 </body>
 
 </html>
