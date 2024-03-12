@@ -119,11 +119,11 @@
         function downloadPDF(fileName) {
             Swal.fire({
                 title: 'Konfirmasi',
-                text: 'Apakah Anda ingin mendownload file ' + fileName + '.pdf?',
+                html: 'Apakah Anda ingin mendownload file ' + fileName + '.pdf?',
                 icon: 'question',
-                iconColor: '#ce0000',
+                iconColor: '#900403',
                 showCancelButton: true,
-                confirmButtonColor: '#ce0000',
+                confirmButtonColor: '#900403',
                 confirmButtonText: 'Ya, download!',
                 cancelButtonText: 'Tidak',
             }).then((result) => {

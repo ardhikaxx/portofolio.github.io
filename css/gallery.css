@@ -30,7 +30,8 @@ html {
 }
 
 body {
-    background: #000;
+    font-family: "Poppins", sans-serif;
+    background-color: #130E0B;
 }
 
 .paragraf-header {
@@ -41,7 +42,8 @@ body {
 }
 
 .paragraf {
-    font-size: 16px;
+    font-size: 18px;
+    font-weight: 600;
     color: #000000;
     margin-top: 10px;
     text-align: center;
@@ -54,16 +56,13 @@ body {
     padding: 15px 20px;
     cursor: pointer;
     text-decoration: none;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.4px);
-    -webkit-backdrop-filter: blur(6.4px);
+    background-color: #900403;
     border-radius: 10px;
 }
 
 .btn-back a:hover {
-    background: #ce0000;
-    color: #fff;
+    background-color: #F0EFEA;
+    color: #130E0B;
 }
 
 button {

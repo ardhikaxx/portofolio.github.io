@@ -8,10 +8,9 @@
 }
 
 body {
-    margin: 0px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
+    background-color: #130E0B;
     text-align: center;
-    background-color: #000;
 }
 
 .work p {
@@ -149,16 +148,13 @@ body {
     padding: 15px 20px;
     cursor: pointer;
     text-decoration: none;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.4px);
-    -webkit-backdrop-filter: blur(6.4px);
+    background-color: #900403;
     border-radius: 10px;
 }
 
 .btn-back a:hover {
-    background: #ce0000;
-    color: #fff;
+    background-color: #F0EFEA;
+    color: #130E0B;
 }
 
 .btn a {
@@ -170,10 +166,7 @@ body {
     border-radius: 16px;
     font-family: "Poppins", sans-serif;
     color: #ffffff;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.4px);
-    -webkit-backdrop-filter: blur(6.4px);
+    background-color: #900403;
     font-size: 17px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -181,8 +174,8 @@ body {
 }
 
 .btn a:hover {
-    background-color: #ce0000;
-    color: #fff;
+    background-color: #F0EFEA;
+    color: #130E0B;
 }
 
 .btn i {
@@ -220,10 +213,6 @@ body {
         font-size: 20px;
         font-weight: 700;
         color: #fff;
-        background: rgba(255, 255, 255, 0.1);
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(6.4px);
-        -webkit-backdrop-filter: blur(6.4px);
         padding: 15px 20px;
         border-radius: 15px;
     }
