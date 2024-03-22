@@ -13,7 +13,7 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-color: #130E0B;
+    background-color: #1A1A1A;
 }
 
 html {
@@ -30,7 +30,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #ffffff;
+    background: #F8F6F0;
     border-radius: 30px;
 }
 
@@ -41,7 +41,7 @@ html {
 .btn {
     text-decoration: none;
     padding: 12px 16px;
-    background-color: #F0EFEA;
+    background-color: #F8F6F0;
     color: #130E0B;
     border: none;
     outline: none;
@@ -58,8 +58,8 @@ html {
 }
 
 .btn:hover {
-    background: #DC213E;
-    color: #F0EFEA;
+    background: #49c5b6;
+    color: #F8F6F0;
 }
 
 .container {
@@ -91,8 +91,8 @@ nav {
 
 .nav-name {
     font-size: 25px;
-    font-weight: 600;
-    color: #fff;
+    font-weight: 800;
+    color: #F8F6F0;
 }
 
 .nav-menu,
@@ -107,7 +107,7 @@ nav {
 
 .nav-link {
     text-decoration: none;
-    color: #ffffff;
+    color: #F8F6F0;
     font-weight: 800;
     padding-inline: 15px;
     margin-inline: 20px;
@@ -124,7 +124,7 @@ nav {
 
 .active-link {
     position: relative;
-    color: #fff;
+    color: #F8F6F0;
     transition: 0.3;
 }
 
@@ -136,7 +136,7 @@ nav {
     transform: translate(-50%, -50%);
     width: 50px;
     height: 5px;
-    background: #DC213E;
+    background: #49c5b6;
     border-radius: 50px;
 }
 
@@ -162,8 +162,8 @@ nav {
 }
 
 .featured-text-card span {
-    background-color: #DC213E;
-    color: #ffffff;
+    background-color: #49c5b6;
+    color: #F8F6F0;
     padding: 3px 8px;
     font-size: 20px;
     border-radius: 5px;
@@ -178,14 +178,14 @@ nav {
 .featured-name {
     font-size: 35px;
     font-weight: 800;
-    color: #fff;
+    color: #F8F6F0;
     margin-top: 5px;
     margin-block: 5px;
 }
 
 .typedText {
     text-transform: capitalize;
-    color: #ffffff;
+    color: #F8F6F0;
     font-weight: 800;
     padding: 5px;
 }
@@ -203,9 +203,9 @@ nav {
 }
 
 .featured-text-btn>.blue-btn {
-    background-color: #DC213E;
+    background-color: #49c5b6;
     text-decoration: none;
-    color: #fff;
+    color: #F8F6F0;
     font-size: 17px;
 }
 
@@ -227,7 +227,7 @@ nav {
 }
 
 .featured-text-btn>.blue-btn:hover {
-    background-color: #F0EFEA;
+    background-color: #F8F6F0;
     color: #130E0B;
 }
 
@@ -245,13 +245,13 @@ nav {
     height: 40px;
     border-radius: 10px;
     color: #2AB13F;
-    background-color: #fff;
+    background-color: #F8F6F0;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
 
 .icon-instagram {
-    background-color: #fff;
+    background-color: #F8F6F0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -270,7 +270,7 @@ nav {
     height: 40px;
     border-radius: 10px;
     color: #0077b5;
-    background-color: #fff;
+    background-color: #F8F6F0;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
@@ -285,7 +285,7 @@ nav {
     align-items: center;
     width: 40px;
     height: 40px;
-    background-color: #fff;
+    background-color: #F8F6F0;
     color: #242424;
     border-radius: 10px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
@@ -305,7 +305,7 @@ nav {
     margin: auto 0;
     width: 330px;
     height: 330px;
-    animation: imgFloat 7s ease-in-out infinite;
+    animation: imgFloat 5s ease-in-out infinite;
 }
 
 .image img {
@@ -316,7 +316,7 @@ nav {
 
 @keyframes imgFloat {
     50% {
-        transform: translateY(10px);
+        transform: translateY(15px);
     }
 }
 
@@ -344,7 +344,7 @@ nav {
 
 .top-header h1 {
     font-weight: 600;
-    color: #ffffff;
+    color: #F8F6F0;
     font-size: 35px;
 }
 
@@ -393,7 +393,7 @@ nav {
     text-align: center;
     margin-top: 10px;
     margin-bottom: 5px;
-    color: #ffffff;
+    color: #F8F6F0;
 }
 
 .about__text {
@@ -410,9 +410,9 @@ nav {
     border-radius: 10px;
     font-size: 16px;
     font-weight: 700;
-    color: #fff;
+    color: #F8F6F0;
     padding: 10px 15px;
-    background-color: #DC213E;
+    background-color: #49c5b6;
 }
 
 .about__more i {
@@ -529,10 +529,10 @@ nav {
     gap: 5px;
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #DC213E;
+    background-color: #49c5b6;
     font-size: 14px;
     font-weight: 700;
-    color: #fff;
+    color: #F8F6F0;
     border-radius: 10px;
     border: 0;
     outline: 0;
@@ -540,7 +540,7 @@ nav {
 }
 
 .btn-project:hover {
-    background-color: #F0EFEA;
+    background-color: #F8F6F0;
     color: #130E0B;
 }
 
@@ -555,8 +555,8 @@ nav {
     margin: 0 auto;
     padding: 5px;
     width: 100px;
-    background-color: #DC213E;
-    color: #ffffff;
+    background-color: #49c5b6;
+    color: #F8F6F0;
     border-radius: 50px;
 }
 
@@ -611,7 +611,7 @@ nav {
 .level p {
     border-radius: 5px;
     padding: 5px 10px;
-    background-color: #DC213E;
+    background-color: #49c5b6;
     color: #fcfcfc;
     margin-top: 5px;
     font-weight: 600;
@@ -622,7 +622,7 @@ nav {
 .level1 p {
     border-radius: 5px;
     padding: 5px 10px;
-    background-color: #DC213E;
+    background-color: #49c5b6;
     color: #fcfcfc;
     font-weight: 600;
     margin-top: 5px;
@@ -685,7 +685,7 @@ footer {
 .top-footer p {
     font-size: 25px;
     font-weight: 800;
-    color: #DC213E;
+    color: #49c5b6;
 }
 
 .middle-footer .footer-menu {
@@ -714,7 +714,7 @@ footer {
 }
 
 .bottom-footer a {
-    color: #DC213E;
+    color: #49c5b6;
     font-weight: 800;
 }
 
@@ -824,13 +824,13 @@ footer {
     .featured-name {
         font-size: 45px;
         font-weight: 800;
-        color: #fff;
+        color: #F8F6F0;
         margin-block: 10px;
     }
     
     .typedText {
         text-transform: capitalize;
-        color: #ffffff;
+        color: #F8F6F0;
         font-weight: 800;
     }
 
@@ -848,7 +848,7 @@ footer {
 
     .featured-text-btn>.blue-btn {
         text-decoration: none;
-        color: #fff;
+        color: #F8F6F0;
         font-size: 18px;
     }
 
@@ -883,14 +883,14 @@ footer {
         margin-right: -45px;
         text-align: center;
         margin-bottom: 10px;
-        color: #fff;
+        color: #F8F6F0;
     }
 
     .about__text {
         margin-left: -40px;
         margin-right: -40px;
         text-align: justify;
-        color: #fff;
+        color: #F8F6F0;
     }
 
     .about__img {
@@ -912,7 +912,7 @@ footer {
         border-radius: 15px;
         font-size: 16px;
         font-weight: 700;
-        color: #fff;
+        color: #F8F6F0;
         padding: 15px 20px;
         display: block;
         margin: 0 auto;
@@ -956,7 +956,7 @@ footer {
 
     .featured-text-card span {
         margin-top: 60px;
-        color: #fff;
+        color: #F8F6F0;
         padding: 3px 8px;
         font-size: 16px;
         border-radius: 5px;
