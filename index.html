@@ -556,6 +556,22 @@
         }
         document.getElementById('year').innerHTML = getCurrentYear();
     </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const card = document.getElementById('card');
+            const trackers = document.querySelectorAll('.tracker');
+
+            trackers.forEach(tracker => {
+                tracker.addEventListener('touchstart', function() {
+                    card.classList.add('hovered');
+                });
+        
+                tracker.addEventListener('touchend', function() {
+                    card.classList.remove('hovered');
+                });
+            });
+        });
+        </script>
 </body>
 
 </html>
