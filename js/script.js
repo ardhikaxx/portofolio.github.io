@@ -28,14 +28,6 @@ function headerShadow() {
     }
 }
 
-let typingEffect = new Typed(".typedText", {
-    strings: ["Front-End Developer", "UI/UX Developer", "Front-End Engineer"],
-    loop: true,
-    typeSpeed: 100,
-    backSpeed: 80,
-    backDelay: 2000
-})
-
 const sr = ScrollReveal({
     origin: 'top',
     distance: '40px',
