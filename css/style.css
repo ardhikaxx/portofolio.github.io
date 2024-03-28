@@ -440,7 +440,7 @@ nav {
     position: relative;
     display: flex;
     height: 100vh;
-    min-height: 750px;
+    min-height: 725px;
 }
 
 .featured-text {
