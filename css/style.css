@@ -325,9 +325,7 @@ html {
     /* Safari */
     /* Konqueror HTML */
     -moz-user-select: none;
-    /* Old versions of Firefox */
     -ms-user-select: none;
-    /* Internet Explorer/Edge */
     user-select: none;
 
 }
@@ -600,6 +598,10 @@ nav {
     width: 330px;
     height: 330px;
     animation: imgFloat 5s ease-in-out infinite;
+}
+
+.image {
+    background-image: url('../assets/foto about.png');
 }
 
 .image img {
