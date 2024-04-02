@@ -35,8 +35,8 @@ const sr = ScrollReveal({
     reset: true
 })
 
-sr.reveal('.featured-text-card', {});
-sr.reveal('.featured-name', { delay: 100 });
+sr.reveal('.featured-name', {});
+sr.reveal('.featured-text-card', { delay: 100 });
 sr.reveal('.featured-text-info', { delay: 200 });
 sr.reveal('.featured-text-btn', { delay: 200 });
 sr.reveal('.social_icons', { delay: 200 });

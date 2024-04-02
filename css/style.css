@@ -38,298 +38,6 @@ html {
     background: #ebebeb;
 }
 
-#card {
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    transition: all 700ms ease-in-out;
-}
-
-.tracker:hover~#card .title {
-    opacity: 1;
-}
-
-.tracker {
-    position: absolute;
-    z-index: 200;
-    width: 100%;
-    height: 100%;
-}
-
-.tracker:hover {
-    cursor: pointer;
-}
-
-.tracker:hover~#card #prompt {
-    opacity: 0;
-}
-
-.tracker:hover~#card {
-    transition: 300ms;
-}
-
-.container:hover #card::before {
-    transition: 200ms;
-    content: '';
-    opacity: 80%;
-}
-
-.canvas {
-    perspective: 800px;
-    inset: 0;
-    z-index: 200;
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-template-areas: "tr-1 tr-2 tr-3 tr-4 tr-5"
-        "tr-6 tr-7 tr-8 tr-9 tr-10"
-        "tr-11 tr-12 tr-13 tr-14 tr-15"
-        "tr-16 tr-17 tr-18 tr-19 tr-20"
-        "tr-21 tr-22 tr-23 tr-24 tr-25";
-}
-
-.tr-1 {
-    grid-area: tr-1;
-}
-
-.tr-2 {
-    grid-area: tr-2;
-}
-
-.tr-3 {
-    grid-area: tr-3;
-}
-
-.tr-4 {
-    grid-area: tr-4;
-}
-
-.tr-5 {
-    grid-area: tr-5;
-}
-
-.tr-6 {
-    grid-area: tr-6;
-}
-
-.tr-7 {
-    grid-area: tr-7;
-}
-
-.tr-8 {
-    grid-area: tr-8;
-}
-
-.tr-9 {
-    grid-area: tr-9;
-}
-
-.tr-10 {
-    grid-area: tr-10;
-}
-
-.tr-11 {
-    grid-area: tr-11;
-}
-
-.tr-12 {
-    grid-area: tr-12;
-}
-
-.tr-13 {
-    grid-area: tr-13;
-}
-
-.tr-14 {
-    grid-area: tr-14;
-}
-
-.tr-15 {
-    grid-area: tr-15;
-}
-
-.tr-16 {
-    grid-area: tr-16;
-}
-
-.tr-17 {
-    grid-area: tr-17;
-}
-
-.tr-18 {
-    grid-area: tr-18;
-}
-
-.tr-19 {
-    grid-area: tr-19;
-}
-
-.tr-20 {
-    grid-area: tr-20;
-}
-
-.tr-21 {
-    grid-area: tr-21;
-}
-
-.tr-22 {
-    grid-area: tr-22;
-}
-
-.tr-23 {
-    grid-area: tr-23;
-}
-
-.tr-24 {
-    grid-area: tr-24;
-}
-
-.tr-25 {
-    grid-area: tr-25;
-}
-
-.tr-1:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(20deg) rotateY(-10deg) rotateZ(0deg);
-}
-
-.tr-2:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(20deg) rotateY(-5deg) rotateZ(0deg);
-}
-
-.tr-3:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(20deg) rotateY(0deg) rotateZ(0deg);
-}
-
-.tr-4:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(20deg) rotateY(5deg) rotateZ(0deg);
-}
-
-.tr-5:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(20deg) rotateY(10deg) rotateZ(0deg);
-}
-
-.tr-6:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(10deg) rotateY(-10deg) rotateZ(0deg);
-}
-
-.tr-7:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(10deg) rotateY(-5deg) rotateZ(0deg);
-}
-
-.tr-8:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(10deg) rotateY(0deg) rotateZ(0deg);
-}
-
-.tr-9:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(10deg) rotateY(5deg) rotateZ(0deg);
-}
-
-.tr-10:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(10deg) rotateY(10deg) rotateZ(0deg);
-}
-
-.tr-11:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(0deg) rotateY(-10deg) rotateZ(0deg);
-}
-
-.tr-12:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(0deg) rotateY(-5deg) rotateZ(0deg);
-}
-
-.tr-13:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
-}
-
-.tr-14:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(0deg) rotateY(5deg) rotateZ(0deg);
-}
-
-.tr-15:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(0deg) rotateY(10deg) rotateZ(0deg);
-}
-
-.tr-16:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-10deg) rotateY(-10deg) rotateZ(0deg);
-}
-
-.tr-17:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-10deg) rotateY(-5deg) rotateZ(0deg);
-}
-
-.tr-18:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-10deg) rotateY(0deg) rotateZ(0deg);
-}
-
-.tr-19:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-10deg) rotateY(5deg) rotateZ(0deg);
-}
-
-.tr-20:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-10deg) rotateY(10deg) rotateZ(0deg);
-}
-
-.tr-21:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-20deg) rotateY(-10deg) rotateZ(0deg);
-}
-
-.tr-22:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-20deg) rotateY(-5deg) rotateZ(0deg);
-}
-
-.tr-23:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-20deg) rotateY(0deg) rotateZ(0deg);
-}
-
-.tr-24:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-20deg) rotateY(5deg) rotateZ(0deg);
-}
-
-.tr-25:hover~#card {
-    transition: 125ms ease-in-out;
-    transform: rotateX(-20deg) rotateY(10deg) rotateZ(0deg);
-}
-
-.noselect {
-    -webkit-touch-callout: none;
-    /* iOS Safari */
-    -webkit-user-select: none;
-    /* Safari */
-    /* Konqueror HTML */
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-
-}
-
 .btn {
     text-decoration: none;
     padding: 12px 16px;
@@ -371,7 +79,7 @@ nav {
     padding-inline: 9vw;
     transition: 0.3s;
     z-index: 100;
-    background: rgba(0, 0, 0, 0.1);
+    background: rgba(75, 75, 75, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6.4px);
     -webkit-backdrop-filter: blur(6.4px);
@@ -440,7 +148,8 @@ nav {
     position: relative;
     display: flex;
     height: 100vh;
-    min-height: 725px;
+    margin-top: 3%;
+    min-height: min-content;
 }
 
 .featured-text {
@@ -454,12 +163,15 @@ nav {
 }
 
 .featured-text-card span {
-    background-color: #49c5b6;
-    color: #F8F6F0;
-    padding: 3px 8px;
-    font-size: 20px;
-    border-radius: 5px;
+    font-size: 35px;
     font-weight: 800;
+    background: -webkit-linear-gradient(left, #49c5b6, #F8F6F0);
+    background: linear-gradient(to left, #49c5b6, #F8F6F0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    margin-bottom: 10px;
 }
 
 .featured-text-card i {
@@ -468,23 +180,15 @@ nav {
 }
 
 .featured-name {
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 800;
     color: #F8F6F0;
-    margin-top: 5px;
-    margin-block: 5px;
-}
-
-.typedText {
-    text-transform: capitalize;
-    color: #F8F6F0;
-    font-weight: 800;
-    padding: 5px;
 }
 
 .featured-text-info {
     font-size: 16px;
     font-weight: 600;
+    margin-top: 5px;
     margin-bottom: 20px;
     color: #e2e2e2;
 }
@@ -587,26 +291,21 @@ nav {
 .featured-image {
     display: flex;
     justify-content: right;
-    align-content: center;
-    min-height: 80vh;
-    width: 50%;
-    margin-top: -50px;
+    align-items: center;
+    min-height: 90vh;
+    width: 60%;
 }
 
 .image {
-    margin: auto 0;
-    width: 330px;
-    height: 330px;
+    width: 100%;
+    max-width: 480px;
+    height: auto;
     animation: imgFloat 5s ease-in-out infinite;
 }
 
-.image {
-    background-image: url('../assets/foto about.png');
-}
-
 .image img {
-    width: 330px;
-    height: 330px;
+    width: 100%;
+    height: auto;
     object-fit: contain;
 }
 
@@ -753,7 +452,7 @@ nav {
     flex-direction: column;
     width: 30%;
     padding: 20px;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(75, 75, 75, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -877,17 +576,17 @@ nav {
     padding: 20px 30px;
     width: 100%;
     height: auto;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(75, 75, 75, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.4px);
-    -webkit-backdrop-filter: blur(6.4px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     border-radius: 10px;
     box-shadow: 1px 8px 10px 2px rgba(17, 12, 46, 0.15);
     overflow: hidden;
 }
 
 .skills-info>h3 {
-    color: #fcfcfc;
+    color: #F8F6F0;
     font-size: 20px;
     margin-bottom: 10px;
     text-align: center;
@@ -910,7 +609,7 @@ nav {
     border-radius: 5px;
     padding: 5px 10px;
     background-color: #49c5b6;
-    color: #fcfcfc;
+    color: #F8F6F0;
     margin-top: 5px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -921,7 +620,7 @@ nav {
     border-radius: 5px;
     padding: 5px 10px;
     background-color: #49c5b6;
-    color: #fcfcfc;
+    color: #F8F6F0;
     font-weight: 600;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -944,10 +643,10 @@ nav {
     padding: 20px 30px;
     width: 100%;
     height: auto;
-    background: rgba(255, 255, 255, 0.1);
+    background: rgba(75, 75, 75, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6.4px);
-    -webkit-backdrop-filter: blur(6.4px);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     border-radius: 10px;
     box-shadow: 1px 8px 10px 2px rgba(17, 12, 46, 0.15);
     overflow: hidden;
@@ -955,7 +654,7 @@ nav {
 
 .pack>h3 {
     text-align: center;
-    color: #fcfcfc;
+    color: #F8F6F0;
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -976,7 +675,10 @@ footer {
     align-items: center;
     flex-direction: column;
     row-gap: 30px;
-    background: #f8f8f8;
+    background: rgba(75, 75, 75, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
     padding-block: 40px 60px;
 }
 
@@ -996,7 +698,7 @@ footer {
 
 .footer_menu_list a {
     text-decoration: none;
-    color: #555;
+    color: #F8F6F0;
     font-weight: 800;
     margin-inline: 20px;
 }
@@ -1011,6 +713,10 @@ footer {
     margin-top: 10px;
 }
 
+.bottom-footer p {
+    color: #F8F6F0;
+}
+
 .bottom-footer a {
     color: #49c5b6;
     font-weight: 800;
@@ -1023,8 +729,8 @@ footer {
 
     .image,
     .image img {
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
     }
 
     .bd-grid {
@@ -1035,7 +741,7 @@ footer {
 
 @media only screen and (max-width: 900px) {
     .nav-menu-btn i {
-        color: white;
+        color: #F8F6F0;
     }
 
     .nav-button {
@@ -1120,10 +826,8 @@ footer {
     }
 
     .featured-name {
-        font-size: 45px;
-        font-weight: 800;
-        color: #F8F6F0;
-        margin-block: 10px;
+        margin-top: 20px;
+        font-size: 20px;
     }
 
     .typedText {
@@ -1141,20 +845,24 @@ footer {
         justify-content: center;
         min-height: 150px;
         width: 100%;
-        margin-top: 65px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+
+    .image {
+        width: 280px;
+        height: auto;
+    }
+
+    .image img {
+        width: 100%;
+        height: auto;
     }
 
     .featured-text-btn>.blue-btn {
         text-decoration: none;
         color: #F8F6F0;
         font-size: 18px;
-    }
-
-    .image,
-    .image img {
-        margin-bottom: 15px;
-        width: 280px;
-        height: 280px;
     }
 
     .row {
@@ -1249,16 +957,19 @@ footer {
 
 @media only screen and (max-width: 540px) {
     .featured-name {
-        font-size: 25px;
+        margin-top: -20px;
+        font-size: 18px;
     }
 
     .featured-text-card span {
-        margin-top: 60px;
-        color: #F8F6F0;
-        padding: 3px 8px;
-        font-size: 16px;
-        border-radius: 5px;
+        font-size: 30px;
         font-weight: 800;
+        background: -webkit-linear-gradient(left, #49c5b6, #F8F6F0);
+        background: linear-gradient(to left, #49c5b6, #F8F6F0);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: transparent;
     }
 
     .featured-text-btn {
@@ -1284,7 +995,7 @@ footer {
     .image,
     .image img {
         width: 200px;
-        height: 200px;
+        height: auto;
     }
 
     .project-box {
@@ -1297,6 +1008,15 @@ footer {
 
     .github-control {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .image,
+    .image img {
+        width: 300px;
+        height: auto;
+        margin-bottom: -20px;
     }
 }
 
