@@ -36,14 +36,14 @@ const sr = ScrollReveal({
 })
 
 sr.reveal('.featured-name', {});
-sr.reveal('.featured-text-card', { delay: 100 });
-sr.reveal('.featured-text-info', { delay: 200 });
-sr.reveal('.featured-text-btn', { delay: 200 });
-sr.reveal('.social_icons', { delay: 200 });
-sr.reveal('.featured-image', { delay: 300 });
-sr.reveal('.project-box', { interval: 200 });
-sr.reveal('.top-header', {});
-sr.reveal('.top-content', { delay: 200 });
+sr.reveal('.featured-text-card', { interval: 16, reset: true });
+sr.reveal('.featured-text-info', { interval: 16, reset: true });
+sr.reveal('.featured-text-btn', { interval: 16, reset: true });
+sr.reveal('.social_icons', { interval: 16, reset: true });
+sr.reveal('.featured-image', { interval: 16, reset: true });
+sr.reveal('.project-box', { interval: 16, reset: true });
+sr.reveal('.top-header', { interval: 16, reset: true });
+sr.reveal('.top-content', { interval: 16, reset: true });
 
 const srTop = ScrollReveal({
     origin: 'top',
@@ -52,10 +52,10 @@ const srTop = ScrollReveal({
     reset: true
 })
 
-srTop.reveal('.about__img', { delay: 200 });
-srTop.reveal('.about__subtitle', { delay: 200 });
-srTop.reveal('.about__text', { delay: 200 });
-srTop.reveal('.about__more', { delay: 200 });
+srTop.reveal('.about__img', { interval: 16, reset: true });
+srTop.reveal('.about__subtitle', { interval: 16, reset: true });
+srTop.reveal('.about__text', { interval: 16, reset: true });
+srTop.reveal('.about__more', { interval: 16, reset: true });
 
 const srLeft = ScrollReveal({
     origin: 'left',
@@ -63,7 +63,8 @@ const srLeft = ScrollReveal({
     duration: 2000,
     reset: true
 })
-srLeft.reveal('.skills-info', { delay: 100 })
+
+srLeft.reveal('.skills-info', { interval: 16, reset: true })
 
 const srRight = ScrollReveal({
     origin: 'right',
@@ -72,7 +73,7 @@ const srRight = ScrollReveal({
     reset: true
 })
 
-srRight.reveal('.pack', { delay: 100 })
+srRight.reveal('.pack', { interval: 16, reset: true })
 
 const sections = document.querySelectorAll('section[id]')
 
