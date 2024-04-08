@@ -30,7 +30,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #F8F6F0;
+    background: #FAFAFA;
     border-radius: 30px;
 }
 
@@ -41,15 +41,17 @@ html {
 .btn {
     text-decoration: none;
     padding: 12px 16px;
-    background-color: #F8F6F0;
-    color: #130E0B;
+    color: #FAFAFA;
     border: none;
     outline: none;
     font-size: 18px;
     font-weight: 700;
-    border-radius: 10px;
     cursor: pointer;
-    transition: 0.4s;
+    transition: background 0.3s ease, color 0.3s ease;
+    border-radius: 10px;
+    border: 2px solid #FAFAFA;
+    background: #130E0B;
+    box-shadow: 3px 3px #fafafa;
 }
 
 .btn>i {
@@ -58,8 +60,8 @@ html {
 }
 
 .btn:hover {
-    background: #49c5b6;
-    color: #F8F6F0;
+    background: #00C9FD;
+    color: #FAFAFA;
 }
 
 .container {
@@ -92,7 +94,7 @@ nav {
 .nav-name {
     font-size: 25px;
     font-weight: 800;
-    color: #F8F6F0;
+    color: #FAFAFA;
 }
 
 .nav-menu,
@@ -107,7 +109,7 @@ nav {
 
 .nav-link {
     text-decoration: none;
-    color: #F8F6F0;
+    color: #FAFAFA;
     font-weight: 800;
     padding-inline: 15px;
     margin-inline: 20px;
@@ -124,7 +126,7 @@ nav {
 
 .active-link {
     position: relative;
-    color: #F8F6F0;
+    color: #FAFAFA;
     transition: 0.3;
 }
 
@@ -136,7 +138,7 @@ nav {
     transform: translate(-50%, -50%);
     width: 50px;
     height: 5px;
-    background: #49c5b6;
+    background: #00C9FD;
     border-radius: 50px;
 }
 
@@ -165,8 +167,8 @@ nav {
 .featured-text-card span {
     font-size: 35px;
     font-weight: 800;
-    background: -webkit-linear-gradient(left, #49c5b6, #F8F6F0);
-    background: linear-gradient(to left, #49c5b6, #F8F6F0);
+    background: -webkit-linear-gradient(left, #00C9FD, #FAFAFA);
+    background: linear-gradient(to left, #00C9FD, #FAFAFA);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -182,7 +184,7 @@ nav {
 .featured-name {
     font-size: 20px;
     font-weight: 800;
-    color: #F8F6F0;
+    color: #FAFAFA;
 }
 
 .featured-text-info {
@@ -199,9 +201,9 @@ nav {
 }
 
 .featured-text-btn>.blue-btn {
-    background-color: #49c5b6;
+    background-color: #00C9FD;
     text-decoration: none;
-    color: #F8F6F0;
+    color: #FAFAFA;
     font-size: 17px;
 }
 
@@ -223,8 +225,8 @@ nav {
 }
 
 .featured-text-btn>.blue-btn:hover {
-    background-color: #F8F6F0;
-    color: #130E0B;
+    background-color: #130E0B;
+    color: #FAFAFA;
 }
 
 .social_icons {
@@ -240,21 +242,23 @@ nav {
     width: 40px;
     height: 40px;
     border-radius: 10px;
-    color: #2AB13F;
-    background-color: #F8F6F0;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    color: #FAFAFA;
+    border: 2px solid #FAFAFA;
+    background: #00C9FD;
+    box-shadow: 3px 3px #fafafa;
     cursor: pointer;
 }
 
 .icon-instagram {
-    background-color: #F8F6F0;
+    border: 2px solid #FAFAFA;
+    background: #00C9FD;
+    box-shadow: 3px 3px #fafafa;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 40px;
     height: 40px;
     border-radius: 10px;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
 
@@ -265,9 +269,10 @@ nav {
     width: 40px;
     height: 40px;
     border-radius: 10px;
-    color: #0077b5;
-    background-color: #F8F6F0;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    color: #FAFAFA;
+    border: 2px solid #FAFAFA;
+    background: #00C9FD;
+    box-shadow: 3px 3px #fafafa;
     cursor: pointer;
 }
 
@@ -281,10 +286,11 @@ nav {
     align-items: center;
     width: 40px;
     height: 40px;
-    background-color: #F8F6F0;
-    color: #242424;
+    color: #FAFAFA;
     border-radius: 10px;
-    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+    border: 2px solid #FAFAFA;
+    background: #00C9FD;
+    box-shadow: 3px 3px #fafafa;
     cursor: pointer;
 }
 
@@ -298,7 +304,7 @@ nav {
 
 .image {
     width: 100%;
-    max-width: 480px;
+    max-width: 450px;
     height: auto;
     animation: imgFloat 5s ease-in-out infinite;
 }
@@ -333,13 +339,13 @@ nav {
 
 .top-header {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
     margin-bottom: 5em;
 }
 
 .top-header h1 {
     font-weight: 600;
-    color: #F8F6F0;
+    color: #FAFAFA;
     font-size: 35px;
 }
 
@@ -386,15 +392,16 @@ nav {
 
 .about__subtitle {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 5px;
-    color: #F8F6F0;
+    color: #FAFAFA;
 }
 
 .about__text {
     text-align: center;
     color: #f1f1f1;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-weight: 500;
 }
 
 .about__more {
@@ -405,9 +412,11 @@ nav {
     border-radius: 10px;
     font-size: 16px;
     font-weight: 700;
-    color: #F8F6F0;
+    color: #FAFAFA;
     padding: 10px 15px;
-    background-color: #49c5b6;
+    border: 2px solid #FAFAFA;
+    background: #00C9FD;
+    box-shadow: 3px 3px #fafafa;
 }
 
 .about__more i {
@@ -526,10 +535,10 @@ nav {
     gap: 5px;
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #49c5b6;
+    background-color: #00C9FD;
     font-size: 14px;
     font-weight: 700;
-    color: #F8F6F0;
+    color: #FAFAFA;
     border-radius: 10px;
     border: 0;
     outline: 0;
@@ -537,7 +546,7 @@ nav {
 }
 
 .btn-project:hover {
-    background-color: #F8F6F0;
+    background-color: #FAFAFA;
     color: #130E0B;
 }
 
@@ -552,8 +561,8 @@ nav {
     margin: 0 auto;
     padding: 5px;
     width: 100px;
-    background-color: #49c5b6;
-    color: #F8F6F0;
+    background-color: #00C9FD;
+    color: #FAFAFA;
     border-radius: 50px;
 }
 
@@ -586,7 +595,7 @@ nav {
 }
 
 .skills-info>h3 {
-    color: #F8F6F0;
+    color: #FAFAFA;
     font-size: 20px;
     margin-bottom: 10px;
     text-align: center;
@@ -608,8 +617,8 @@ nav {
 .level p {
     border-radius: 5px;
     padding: 5px 10px;
-    background-color: #49c5b6;
-    color: #F8F6F0;
+    background-color: #00C9FD;
+    color: #FAFAFA;
     margin-top: 5px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -619,8 +628,8 @@ nav {
 .level1 p {
     border-radius: 5px;
     padding: 5px 10px;
-    background-color: #49c5b6;
-    color: #F8F6F0;
+    background-color: #00C9FD;
+    color: #FAFAFA;
     font-weight: 600;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -654,7 +663,7 @@ nav {
 
 .pack>h3 {
     text-align: center;
-    color: #F8F6F0;
+    color: #FAFAFA;
     font-size: 20px;
     margin-bottom: 10px;
 }
@@ -685,7 +694,7 @@ footer {
 .top-footer p {
     font-size: 25px;
     font-weight: 800;
-    color: #49c5b6;
+    color: #00C9FD;
 }
 
 .middle-footer .footer-menu {
@@ -698,7 +707,7 @@ footer {
 
 .footer_menu_list a {
     text-decoration: none;
-    color: #F8F6F0;
+    color: #FAFAFA;
     font-weight: 800;
     margin-inline: 20px;
 }
@@ -714,11 +723,11 @@ footer {
 }
 
 .bottom-footer p {
-    color: #F8F6F0;
+    color: #FAFAFA;
 }
 
 .bottom-footer a {
-    color: #49c5b6;
+    color: #00C9FD;
     font-weight: 800;
 }
 
@@ -741,7 +750,7 @@ footer {
 
 @media only screen and (max-width: 900px) {
     .nav-menu-btn i {
-        color: #F8F6F0;
+        color: #FAFAFA;
     }
 
     .nav-button {
@@ -832,7 +841,7 @@ footer {
 
     .typedText {
         text-transform: capitalize;
-        color: #F8F6F0;
+        color: #FAFAFA;
         font-weight: 800;
     }
 
@@ -861,7 +870,7 @@ footer {
 
     .featured-text-btn>.blue-btn {
         text-decoration: none;
-        color: #F8F6F0;
+        color: #FAFAFA;
         font-size: 18px;
     }
 
@@ -889,14 +898,14 @@ footer {
         margin-right: -45px;
         text-align: center;
         margin-bottom: 10px;
-        color: #F8F6F0;
+        color: #FAFAFA;
     }
 
     .about__text {
         margin-left: -40px;
         margin-right: -40px;
-        text-align: justify;
-        color: #F8F6F0;
+        text-align: center;
+        color: #FAFAFA;
     }
 
     .about__img {
@@ -918,7 +927,7 @@ footer {
         border-radius: 15px;
         font-size: 16px;
         font-weight: 700;
-        color: #F8F6F0;
+        color: #FAFAFA;
         padding: 15px 20px;
         display: block;
         margin: 0 auto;
@@ -964,8 +973,8 @@ footer {
     .featured-text-card span {
         font-size: 30px;
         font-weight: 800;
-        background: -webkit-linear-gradient(left, #49c5b6, #F8F6F0);
-        background: linear-gradient(to left, #49c5b6, #F8F6F0);
+        background: -webkit-linear-gradient(left, #00C9FD, #FAFAFA);
+        background: linear-gradient(to left, #00C9FD, #FAFAFA);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
