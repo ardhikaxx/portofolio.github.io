@@ -535,19 +535,20 @@ nav {
     gap: 5px;
     margin-top: 10px;
     padding: 10px 15px;
-    background-color: #00C9FD;
+    border: 2px solid #FAFAFA;
+    background: #00C9FD;
+    box-shadow: 3px 3px #fafafa;
     font-size: 14px;
     font-weight: 700;
     color: #FAFAFA;
     border-radius: 10px;
-    border: 0;
     outline: 0;
     cursor: pointer;
 }
 
 .btn-project:hover {
-    background-color: #FAFAFA;
-    color: #130E0B;
+    background-color: #130E0B;
+    color: #FAFAFA;
 }
 
 .alert-info {
@@ -617,7 +618,9 @@ nav {
 .level p {
     border-radius: 5px;
     padding: 5px 10px;
-    background-color: #00C9FD;
+    border: 2px solid #FAFAFA;
+    background: #00C9FD;
+    box-shadow: 3px 3px #fafafa;
     color: #FAFAFA;
     margin-top: 5px;
     font-weight: 600;
@@ -628,7 +631,9 @@ nav {
 .level1 p {
     border-radius: 5px;
     padding: 5px 10px;
-    background-color: #00C9FD;
+    border: 2px solid #FAFAFA;
+    background: #00C9FD;
+    box-shadow: 3px 3px #fafafa;
     color: #FAFAFA;
     font-weight: 600;
     margin-top: 5px;

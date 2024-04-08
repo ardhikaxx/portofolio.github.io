@@ -144,17 +144,19 @@ body {
 .btn-back a {
     font-weight: 700;
     font-size: 16px;
-    color: #fff;
+    color: #fafafa;
     padding: 15px 20px;
     cursor: pointer;
     text-decoration: none;
-    background-color: #00C9FD;
+    border: 2px solid #FAFAFA;
+    background: #00C9FD;
+    box-shadow: 3px 3px #fafafa;
     border-radius: 10px;
 }
 
 .btn-back a:hover {
-    background-color: #F0EFEA;
-    color: #130E0B;
+    background-color: #130E0B;
+    color: #FAFAFA;
 }
 
 .btn a {
@@ -165,8 +167,10 @@ body {
     padding: 15px 38px;
     border-radius: 16px;
     font-family: "Poppins", sans-serif;
-    color: #ffffff;
-    background-color: #00C9FD;
+    color: #fafafa;
+    border: 2px solid #FAFAFA;
+    background: #00C9FD;
+    box-shadow: 3px 3px #fafafa;
     font-size: 17px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -174,8 +178,8 @@ body {
 }
 
 .btn a:hover {
-    background-color: #F0EFEA;
-    color: #130E0B;
+    background-color: #130E0B;
+    color: #FAFAFA;
 }
 
 .btn i {
