@@ -10,12 +10,12 @@ buttons.forEach(button => {
 
         Swal.fire({
             icon: 'info',
-            iconColor: '#00C9FD',
+            iconColor: '#01BCF3',
             title: 'Info',
             html: `<div class="icon-app">${iconSVG}</div>
                     <p class="paragraf-info">${paragraph}</p>
                     <h4 class="year-info">${year}</h4>`,
-            confirmButtonColor: '#00C9FD',
+            confirmButtonColor: '#01BCF3',
             confirmButtonText: 'Tutup',
             scrollbarPadding: false
         });

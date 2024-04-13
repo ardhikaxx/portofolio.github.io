@@ -60,7 +60,7 @@ html {
 }
 
 .btn:hover {
-    background: #00C9FD;
+    background: #01BCF3;
     color: #FAFAFA;
 }
 
@@ -138,7 +138,7 @@ nav {
     transform: translate(-50%, -50%);
     width: 50px;
     height: 5px;
-    background: #00C9FD;
+    background: #01BCF3;
     border-radius: 50px;
 }
 
@@ -167,8 +167,8 @@ nav {
 .featured-text-card span {
     font-size: 35px;
     font-weight: 800;
-    background: -webkit-linear-gradient(left, #00C9FD, #FAFAFA);
-    background: linear-gradient(to left, #00C9FD, #FAFAFA);
+    background: -webkit-linear-gradient(left, #01BCF3, #FAFAFA);
+    background: linear-gradient(to left, #01BCF3, #FAFAFA);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -201,7 +201,7 @@ nav {
 }
 
 .featured-text-btn>.blue-btn {
-    background-color: #00C9FD;
+    background-color: #01BCF3;
     text-decoration: none;
     color: #FAFAFA;
     font-size: 17px;
@@ -244,14 +244,14 @@ nav {
     border-radius: 10px;
     color: #FAFAFA;
     border: 2px solid #FAFAFA;
-    background: #00C9FD;
+    background: #01BCF3;
     box-shadow: 3px 3px #fafafa;
     cursor: pointer;
 }
 
 .icon-instagram {
     border: 2px solid #FAFAFA;
-    background: #00C9FD;
+    background: #01BCF3;
     box-shadow: 3px 3px #fafafa;
     display: flex;
     justify-content: center;
@@ -271,7 +271,7 @@ nav {
     border-radius: 10px;
     color: #FAFAFA;
     border: 2px solid #FAFAFA;
-    background: #00C9FD;
+    background: #01BCF3;
     box-shadow: 3px 3px #fafafa;
     cursor: pointer;
 }
@@ -289,7 +289,7 @@ nav {
     color: #FAFAFA;
     border-radius: 10px;
     border: 2px solid #FAFAFA;
-    background: #00C9FD;
+    background: #01BCF3;
     box-shadow: 3px 3px #fafafa;
     cursor: pointer;
 }
@@ -415,7 +415,7 @@ nav {
     color: #FAFAFA;
     padding: 10px 15px;
     border: 2px solid #FAFAFA;
-    background: #00C9FD;
+    background: #01BCF3;
     box-shadow: 3px 3px #fafafa;
 }
 
@@ -461,10 +461,10 @@ nav {
     flex-direction: column;
     width: 30%;
     padding: 20px;
-    background: rgba(75, 75, 75, 0.1);
+    background: rgba(150, 150, 150, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
     border-radius: 15px;
     overflow: hidden;
     text-decoration: none;
@@ -536,7 +536,7 @@ nav {
     margin-top: 10px;
     padding: 10px 15px;
     border: 2px solid #FAFAFA;
-    background: #00C9FD;
+    background: #01BCF3;
     box-shadow: 3px 3px #fafafa;
     font-size: 14px;
     font-weight: 700;
@@ -562,7 +562,7 @@ nav {
     margin: 0 auto;
     padding: 5px;
     width: 100px;
-    background-color: #00C9FD;
+    background-color: #01BCF3;
     color: #FAFAFA;
     border-radius: 50px;
 }
@@ -586,12 +586,11 @@ nav {
     padding: 20px 30px;
     width: 100%;
     height: auto;
-    background: rgba(75, 75, 75, 0.1);
+    background: rgba(150, 150, 150, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
     border-radius: 10px;
-    box-shadow: 1px 8px 10px 2px rgba(17, 12, 46, 0.15);
     overflow: hidden;
 }
 
@@ -619,7 +618,7 @@ nav {
     border-radius: 5px;
     padding: 5px 10px;
     border: 2px solid #FAFAFA;
-    background: #00C9FD;
+    background: #01BCF3;
     box-shadow: 3px 3px #fafafa;
     color: #FAFAFA;
     margin-top: 5px;
@@ -632,7 +631,7 @@ nav {
     border-radius: 5px;
     padding: 5px 10px;
     border: 2px solid #FAFAFA;
-    background: #00C9FD;
+    background: #01BCF3;
     box-shadow: 3px 3px #fafafa;
     color: #FAFAFA;
     font-weight: 600;
@@ -657,12 +656,11 @@ nav {
     padding: 20px 30px;
     width: 100%;
     height: auto;
-    background: rgba(75, 75, 75, 0.1);
+    background: rgba(150, 150, 150, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
     border-radius: 10px;
-    box-shadow: 1px 8px 10px 2px rgba(17, 12, 46, 0.15);
     overflow: hidden;
 }
 
@@ -689,17 +687,17 @@ footer {
     align-items: center;
     flex-direction: column;
     row-gap: 30px;
-    background: rgba(75, 75, 75, 0.1);
+    background: rgba(150, 150, 150, 0.1);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
     padding-block: 40px 60px;
 }
 
 .top-footer p {
     font-size: 25px;
     font-weight: 800;
-    color: #00C9FD;
+    color: #01BCF3;
 }
 
 .middle-footer .footer-menu {
@@ -732,7 +730,7 @@ footer {
 }
 
 .bottom-footer a {
-    color: #00C9FD;
+    color: #01BCF3;
     font-weight: 800;
 }
 
@@ -978,8 +976,8 @@ footer {
     .featured-text-card span {
         font-size: 30px;
         font-weight: 800;
-        background: -webkit-linear-gradient(left, #00C9FD, #FAFAFA);
-        background: linear-gradient(to left, #00C9FD, #FAFAFA);
+        background: -webkit-linear-gradient(left, #01BCF3, #FAFAFA);
+        background: linear-gradient(to left, #01BCF3, #FAFAFA);
         -webkit-background-clip: text;
         background-clip: text;
         -webkit-text-fill-color: transparent;
