@@ -9,3 +9,29 @@ document.addEventListener('DOMContentLoaded', function () {
         CursorChar: "|"
     });
 });
+
+var dropdown = document.getElementById("dropdownMenu");
+
+    var certificateItems = document.querySelectorAll(".certificate-item");
+
+    certificateItems.forEach(function(item) {
+        item.style.display = "block";
+    });
+
+    dropdown.addEventListener("change", function() {
+        var selectedValue = dropdown.value;
+
+        certificateItems.forEach(function(item) {
+            item.style.display = "none";
+        });
+
+        if (selectedValue !== "Filter") {
+            document.querySelectorAll(".certificate-item[data-filter='" + selectedValue + "']").forEach(function(item) {
+                item.style.display = "block";
+            });
+        } else {
+            certificateItems.forEach(function(item) {
+                item.style.display = "block";
+            });
+        }
+    });
