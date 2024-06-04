@@ -30,7 +30,7 @@ function headerShadow() {
 
 const sr = ScrollReveal({
     origin: 'top',
-    distance: '40px',
+    distance: '80px',
     duration: 2000,
     reset: true
 })
